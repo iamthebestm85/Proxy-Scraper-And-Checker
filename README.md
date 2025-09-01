@@ -20,6 +20,7 @@ Ideal for developers needing reliable proxies quickly.
 ```bash
 git clone https://github.com/iamthebestm85/Proxy-Scraper-And-Checker-.git
 cd Proxy-Scraper-And-Checker- 
+python3 -m venv venv && source venv/bin/activate 
 pip install aiohttp colorama tqdm
 ```
 
