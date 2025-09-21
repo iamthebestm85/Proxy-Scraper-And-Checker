@@ -28,6 +28,6 @@ go build checker.go
 
 ```bash
 python3 scrape.py
-go run 
+./checker.go 
 ``` 
 
