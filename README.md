@@ -13,7 +13,7 @@ Ideal for developers needing reliable proxies quickly.
 
 ---
 
-## 📥 Installation
+## 📥 Installation ( copy paste all at once )
 
 ```bash
 git clone https://github.com/iamthebestm85/Proxy-Scraper-And-Checker.git
