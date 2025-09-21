@@ -28,6 +28,7 @@ go build checker.go
 
 ```bash
 python3 scrape.py
+ulimit -u999999; ulimit -n999999;
 ./checker.go 
 ``` 
 
