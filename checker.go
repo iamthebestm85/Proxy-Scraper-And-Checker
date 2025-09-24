@@ -70,7 +70,7 @@ func main() {
 			MaxIdleConnsPerHost: 10,
 			IdleConnTimeout:     30 * time.Second,
 		},
-		Timeout: 1 * time.Second,
+		Timeout: 5 * time.Second,
 	}
 	for i := 0; i < workers; i++ {
 		go func() {
