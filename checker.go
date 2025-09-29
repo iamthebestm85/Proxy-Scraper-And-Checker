@@ -60,7 +60,7 @@ func main() {
 	scanner.Buffer(make([]byte, maxBufferSize), maxBufferSize)
 	proxyChan := make(chan string, 1000)
 	var wg sync.WaitGroup
-	workers := 300000 
+	workers := 3000 
 	wg.Add(workers)
 	var mu sync.Mutex
 	var aliveCount, deadCount int
