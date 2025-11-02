@@ -76,7 +76,7 @@ func main() {
 		go func() {
 			defer wg.Done()
 			for proxy := range proxyChan {
-				status, err := checkProxy(proxy, "http://httpbin.org/ip", client, protocol)
+				status, err := checkProxy(proxy, "https://wtfismyip.com/json", client, protocol)
 				if err != nil || status != "ALIVE" {
 					fmt.Printf("%s[DEAD]%s %s\n", red, reset, proxy)
 					mu.Lock()
